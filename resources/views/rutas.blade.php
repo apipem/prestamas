@@ -53,18 +53,14 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th scope="col">RUT</th>
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Teléfono</th>
                                 <th scope="col">Dirección</th>
-                                <th scope="col">Ocupación</th>
-                                <th scope="col">Observador</th>
                                 <th scope="col">Acciones</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>###</td>
                                 <td>Nombre</td>
                                 <td>
                                     <dl class="mb-0">
@@ -79,12 +75,9 @@
                                         <dd>Direccion 3</dd>
                                     </dl>
                                 </td>
-                                <td>Ocupacion</td>
-                                <td>#####</td>
                                 <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
                             </tr>
                             <tr>
-                                <td>###</td>
                                 <td>Nombre</td>
                                 <td>
                                     <dl class="mb-0">
@@ -99,12 +92,9 @@
                                         <dd>Direccion 3</dd>
                                     </dl>
                                 </td>
-                                <td>Ocupacion</td>
-                                <td>#####</td>
                                 <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
                             </tr>
                             <tr>
-                                <td>###</td>
                                 <td>Nombre</td>
                                 <td>
                                     <dl class="mb-0">
@@ -119,12 +109,9 @@
                                         <dd>Direccion 3</dd>
                                     </dl>
                                 </td>
-                                <td>Ocupacion</td>
-                                <td>#####</td>
                                 <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
                             </tr>
                             <tr>
-                                <td>###</td>
                                 <td>Nombre</td>
                                 <td>
                                     <dl class="mb-0">
@@ -139,8 +126,6 @@
                                         <dd>Direccion 3</dd>
                                     </dl>
                                 </td>
-                                <td>Ocupacion</td>
-                                <td>#####</td>
                                 <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
                             </tr>
                             </tbody>
