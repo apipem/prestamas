@@ -41,44 +41,35 @@
                 <div class="col-md-6">
                     <!-- Tabla de clientes -->
                     <h5 class="mt-4">Listado de Clientes</h5>
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">RUT</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Teléfono</th>
-                            <th scope="col">Dirección</th>
-                            <th scope="col">Ocupación</th>
-                            <th scope="col">Observador</th>
-                            <th scope="col">Acciones</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php $clientes = []; ?>
-                        @foreach ($clientes as $cliente)
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
                             <tr>
-                                <td>{{ $cliente->nombre }}</td>
-                                <td>{{ $cliente->telefono }}</td>
-                                <td>{{ $cliente->direccion }}</td>
-                                <td>{{ $cliente->ocupacion }}</td>
-                                <td>{{ $cliente->rut }}</td>
+                                <th scope="col">RUT</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Teléfono</th>
+                                <th scope="col">Dirección</th>
+                                <th scope="col">Ocupación</th>
+                                <th scope="col">Observador</th>
+                                <th scope="col">Acciones</th>
                             </tr>
-                        @endforeach
+                            </thead>
+                            <tbody>
                             <tr>
                                 <td>###</td>
                                 <td>Nombre</td>
                                 <td>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Celular 1</li>
-                                        <li class="list-group-item">Celular 2</li>
-                                    </ul>
+                                    <dl class="mb-0">
+                                        <dt>Celular 1</dt>
+                                        <dd>Celular 2</dd>
+                                    </dl>
                                 </td>
                                 <td>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Direccion 1</li>
-                                        <li class="list-group-item">Direccion 2</li>
-                                        <li class="list-group-item">Direccion 3</li>
-                                    </ul>
+                                    <dl class="mb-0">
+                                        <dt>Direccion 1</dt>
+                                        <dd>Direccion 2</dd>
+                                        <dd>Direccion 3</dd>
+                                    </dl>
                                 </td>
                                 <td>Ocupacion</td>
                                 <td>#####</td>
@@ -88,24 +79,66 @@
                                 <td>###</td>
                                 <td>Nombre</td>
                                 <td>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Celular 1</li>
-                                        <li class="list-group-item">Celular 2</li>
-                                    </ul>
+                                    <dl class="mb-0">
+                                        <dt>Celular 1</dt>
+                                        <dd>Celular 2</dd>
+                                    </dl>
                                 </td>
                                 <td>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Direccion 1</li>
-                                        <li class="list-group-item">Direccion 2</li>
-                                        <li class="list-group-item">Direccion 3</li>
-                                    </ul>
+                                    <dl class="mb-0">
+                                        <dt>Direccion 1</dt>
+                                        <dd>Direccion 2</dd>
+                                        <dd>Direccion 3</dd>
+                                    </dl>
                                 </td>
                                 <td>Ocupacion</td>
                                 <td>#####</td>
                                 <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
                             </tr>
-                        </tbody>
-                    </table>
+                            <tr>
+                                <td>###</td>
+                                <td>Nombre</td>
+                                <td>
+                                    <dl class="mb-0">
+                                        <dt>Celular 1</dt>
+                                        <dd>Celular 2</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <dl class="mb-0">
+                                        <dt>Direccion 1</dt>
+                                        <dd>Direccion 2</dd>
+                                        <dd>Direccion 3</dd>
+                                    </dl>
+                                </td>
+                                <td>Ocupacion</td>
+                                <td>#####</td>
+                                <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
+                            </tr>
+                            <tr>
+                                <td>###</td>
+                                <td>Nombre</td>
+                                <td>
+                                    <dl class="mb-0">
+                                        <dt>Celular 1</dt>
+                                        <dd>Celular 2</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <dl class="mb-0">
+                                        <dt>Direccion 1</dt>
+                                        <dd>Direccion 2</dd>
+                                        <dd>Direccion 3</dd>
+                                    </dl>
+                                </td>
+                                <td>Ocupacion</td>
+                                <td>#####</td>
+                                <td><button type="button" class="btn btn-outline-secondary">Cobrar</button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
             </div>
         </div>
